@@ -864,7 +864,7 @@ svg.svg-flight-footer {
     padding-top: 20px;
   }
   .header {
-    min-height: 100svh;
+    min-height: 60svh;
     margin-bottom: 30px;
   }
   .main-title {
