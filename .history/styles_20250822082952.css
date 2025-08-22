@@ -799,6 +799,7 @@ svg.svg-flight-footer {
   }
   .balloon {
     width: 300px;
+    height: 150px;
   }
   .svg-flight-footer {
     width: 300px;
@@ -838,7 +839,7 @@ svg.svg-flight-footer {
     font-size: 15px;
   }
   .footer {
-    min-height: 60svh;
+    min-height: 80svh;
   }
   .footer-info {
     flex-direction: column-reverse;

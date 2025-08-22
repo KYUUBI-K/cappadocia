@@ -838,7 +838,7 @@ svg.svg-flight-footer {
     font-size: 15px;
   }
   .footer {
-    min-height: 60svh;
+    min-height: 100svh;
   }
   .footer-info {
     flex-direction: column-reverse;
