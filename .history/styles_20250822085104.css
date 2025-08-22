@@ -636,7 +636,7 @@ svg.svg-flight-footer {
     justify-content: center;
     column-gap: 25px;
     font-size: 16px;
-    margin-top: 15px;
+    margin-top: 20px;
   }
   .button-reserve {
     display: flex;

@@ -60,7 +60,7 @@ body {
 }
 
 .header {
-  min-height: 1080px;
+  min-height: 100svh;
   background: url("./images/Rectangle-header.jpg") no-repeat center center;
   background-size: cover;
   background-position: center;
@@ -636,7 +636,6 @@ svg.svg-flight-footer {
     justify-content: center;
     column-gap: 25px;
     font-size: 16px;
-    margin-top: 15px;
   }
   .button-reserve {
     display: flex;
