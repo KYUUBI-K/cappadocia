@@ -633,11 +633,10 @@ svg.svg-flight-footer {
   }
   .route-text {
     display: flex;
-    justify-content: space-between;
-    column-gap: 15px;
-    font-size: 12px;
+    justify-content: center;
+    column-gap: 25px;
+    font-size: 16px;
     margin-top: 15px;
-    padding: 0 20px;
   }
   .button-reserve {
     display: flex;
@@ -695,10 +694,8 @@ svg.svg-flight-footer {
     row-gap: 30px;
   }
   .form-price-tour {
-    display: flex;
-    flex-direction: column;
     order: 2;
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
   .form-content {
     order: 2;
@@ -712,11 +709,6 @@ svg.svg-flight-footer {
   .price-title {
     justify-items: center;
   }
-
-  .section-title-text {
-    line-height: normal;
-  }
-
   .about-subtitle-text,
   .route-subtitle-text,
   .hotel-subtitle-text,
@@ -743,6 +735,9 @@ svg.svg-flight-footer {
   .main-subtitle-text {
     font-size: 25px;
   }
+  .route-text {
+    flex-wrap: wrap;
+  }
 
   .about-content {
     justify-content: center;
@@ -757,13 +752,9 @@ svg.svg-flight-footer {
 @media (max-width: 970px) {
   .hotel-content {
     padding: 0 20px;
-    row-gap: 40px;
+    row-gap: 50px;
     flex-direction: column;
     justify-content: center;
-  }
-  .hotel-content p {
-    font-size: 12px;
-    margin-bottom: 20px;
   }
   .hotel-img {
     width: 100%;
@@ -842,11 +833,6 @@ svg.svg-flight-footer {
   .price-title {
     margin-bottom: 75px;
   }
-
-  .route-text {
-    font-size: 12px;
-    margin: 0 auto;
-  }
   .about-text {
     margin-bottom: 30px;
   }
@@ -871,9 +857,6 @@ svg.svg-flight-footer {
   .main-subtitle-text {
     font-size: 20px;
   }
-  .route-text {
-    font-size: 10px;
-  }
 }
 
 @media (max-width: 450px) {
@@ -893,9 +876,6 @@ svg.svg-flight-footer {
   }
   .main-subtitle-text {
     font-size: 20px;
-  }
-  .route-text {
-    font-size: 10px;
   }
   .about-title,
   .route-title,

@@ -712,11 +712,6 @@ svg.svg-flight-footer {
   .price-title {
     justify-items: center;
   }
-
-  .section-title-text {
-    line-height: normal;
-  }
-
   .about-subtitle-text,
   .route-subtitle-text,
   .hotel-subtitle-text,
@@ -915,6 +910,7 @@ svg.svg-flight-footer {
   .price-subtitle-text,
   .about-subtitle-text {
     font-size: 20px;
+    line-height: 1.5;
   }
   .form-group input {
     width: 100%;

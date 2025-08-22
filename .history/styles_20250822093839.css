@@ -713,11 +713,10 @@ svg.svg-flight-footer {
     justify-items: center;
   }
 
-  .section-title-text {
-    line-height: normal;
-  }
-
-  .about-subtitle-text,
+  .about-,
+  .route-title,
+  .hotel-title,
+  .price-title .about-subtitle-text,
   .route-subtitle-text,
   .hotel-subtitle-text,
   .price-subtitle-text,

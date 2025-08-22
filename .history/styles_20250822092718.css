@@ -633,11 +633,10 @@ svg.svg-flight-footer {
   }
   .route-text {
     display: flex;
-    justify-content: space-between;
     column-gap: 15px;
     font-size: 12px;
     margin-top: 15px;
-    padding: 0 20px;
+    padding: 0 10px;
   }
   .button-reserve {
     display: flex;
@@ -712,11 +711,6 @@ svg.svg-flight-footer {
   .price-title {
     justify-items: center;
   }
-
-  .section-title-text {
-    line-height: normal;
-  }
-
   .about-subtitle-text,
   .route-subtitle-text,
   .hotel-subtitle-text,
@@ -842,11 +836,6 @@ svg.svg-flight-footer {
   .price-title {
     margin-bottom: 75px;
   }
-
-  .route-text {
-    font-size: 12px;
-    margin: 0 auto;
-  }
   .about-text {
     margin-bottom: 30px;
   }
@@ -871,9 +860,6 @@ svg.svg-flight-footer {
   .main-subtitle-text {
     font-size: 20px;
   }
-  .route-text {
-    font-size: 10px;
-  }
 }
 
 @media (max-width: 450px) {
@@ -893,9 +879,6 @@ svg.svg-flight-footer {
   }
   .main-subtitle-text {
     font-size: 20px;
-  }
-  .route-text {
-    font-size: 10px;
   }
   .about-title,
   .route-title,
