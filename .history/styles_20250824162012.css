@@ -897,6 +897,7 @@ svg.svg-flight-footer {
     margin-bottom: 30px;
   }
   .main-title {
+    /* margin-top: 0; */
   }
   .main-title-text {
     font-size: 70px;
