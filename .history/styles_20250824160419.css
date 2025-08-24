@@ -592,8 +592,6 @@ svg.svg-flight-footer {
     transform: none;
   }
   .about-slider {
-    width: auto;
-    height: auto;
     max-width: 100%;
     position: relative;
   }
@@ -631,9 +629,7 @@ svg.svg-flight-footer {
 
   .route-slider {
     position: relative;
-    max-width: 100%;
-    width: auto;
-    height: auto;
+    width: 100%;
   }
   .route-text {
     display: flex;

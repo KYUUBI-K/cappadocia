@@ -631,9 +631,7 @@ svg.svg-flight-footer {
 
   .route-slider {
     position: relative;
-    max-width: 100%;
-    width: auto;
-    height: auto;
+    width: 100%;
   }
   .route-text {
     display: flex;
