@@ -729,7 +729,7 @@ svg.svg-flight-footer {
     line-height: normal;
     transform: none;
     white-space: nowrap;
-    font-size: clamp(14px, 4vw, 24px);
+    font-size: 14px, 4vw, 24px;
   }
 }
 
@@ -825,6 +825,8 @@ svg.svg-flight-footer {
   .hotel-subtitle-text,
   .price-subtitle-text,
   .about-subtitle-text {
+    font-size: 20px;
+    white-space: nowrap;
   }
 }
 
@@ -924,6 +926,7 @@ svg.svg-flight-footer {
   .hotel-subtitle-text,
   .price-subtitle-text,
   .about-subtitle-text {
+    font-size: 20px;
   }
   .form-group input {
     width: 100%;

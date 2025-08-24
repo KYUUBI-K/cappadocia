@@ -825,6 +825,8 @@ svg.svg-flight-footer {
   .hotel-subtitle-text,
   .price-subtitle-text,
   .about-subtitle-text {
+    font-size: 20px;
+    white-space: nowrap;
   }
 }
 
@@ -924,6 +926,7 @@ svg.svg-flight-footer {
   .hotel-subtitle-text,
   .price-subtitle-text,
   .about-subtitle-text {
+    font-size: 20px;
   }
   .form-group input {
     width: 100%;
